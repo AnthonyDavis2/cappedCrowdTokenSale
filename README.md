@@ -1,6 +1,5 @@
 <h1>cappedCrowdTokenSale</h1>
 <h2>Task: Code a Solidity contract for a simple capped crowd sale token.</h2>
-<h6>By: Anthony Davis</h6>
 <hr>
 
 <h2>Process:</h2>
@@ -44,8 +43,14 @@
  <hr>
  <h2>Solutions:</h2>
  <ul>
-  <li>Part One:
+  <li>Part One Answer(s):
     <ul><li>A: <img src="ScreenshotsOfOutput/A1.png"><li></ul>
   </li>
-  <li></li>
+  <li>Part Two Answer(s): 
+  <ul><li>A: <img src="ScreenshotsOfOutput/B1.png"><li>
+    <li>B: <img src="ScreenshotsOfOutput/B2.png"><li>
+    <li>C: <img src="ScreenshotsOfOutput/B3.png"><li></ul>
+  </li>
  </ul>
+ <hr>
+ <h6>By: Anthony Davis</h6>
