@@ -1,5 +1,5 @@
 <h1>cappedCrowdTokenSale</h1>
-<h2>Task: code a Solidity contract for a simple capped crowd sale token.</h2>
+<h2>Task: Code a Solidity contract for a simple capped crowd sale token.</h2>
 <h6>By: Anthony Davis</h6>
 <hr>
 
@@ -41,3 +41,11 @@
     </ul>
   </li>
  </ol>
+ <hr>
+ <h2>Solutions:</h2>
+ <ul>
+  <li>Part One:
+    <ul><li>A: <img src="ScreenshotsOfOutput/A1.png"><li></ul>
+  </li>
+  <li></li>
+ </ul>
