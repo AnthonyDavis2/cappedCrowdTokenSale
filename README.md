@@ -41,6 +41,12 @@
   </li>
  </ol>
  <hr>
+ <H2>Useful commands used: </h2>
+ <ul>
+  <li>Compiling with truffle: <ol><li>truffle compile</li><li>truffle develop</li><li>migrate --reset</li></ol</li>
+    <li>Deploying our contracts with its parameters <em>token name</em>, <em>symbol</em>, and <em>decimal point</em>.<ul><li> ```` ExampleToken.deployed("Example Token", "EXM", 18).then((t) => {token = t;}) ````</li></ul></li>
+    </ul>
+ <hr>
  <h2>Solutions:</h2>
  <ul>
   <li>Part One Answer(s):
