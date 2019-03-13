@@ -44,12 +44,12 @@
  <h2>Solutions:</h2>
  <ul>
   <li>Part One Answer(s):
-    <ul><li>A: <img src="ScreenshotsOfOutput/A1.png"><li></ul>
+    <ul><li>A: <img src="ScreenshotsOfOutput/A1.png"></li></ul>
   </li>
   <li>Part Two Answer(s): 
-  <ul><li>A: <img src="ScreenshotsOfOutput/B1.png"><li>
-    <li>B: <img src="ScreenshotsOfOutput/B2.png"><li>
-    <li>C: <img src="ScreenshotsOfOutput/B3.png"><li></ul>
+  <ul><li>A: <img src="ScreenshotsOfOutput/B1.png"></li>
+    <li>B: <img src="ScreenshotsOfOutput/B2.png"></li>
+    <li>C: <img src="ScreenshotsOfOutput/B3.png"></li></ul>
   </li>
  </ul>
  <hr>
