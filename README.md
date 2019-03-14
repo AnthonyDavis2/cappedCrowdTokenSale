@@ -1,12 +1,11 @@
 <h1>cappedCrowdTokenSale</h1>
 <h2>Task: Code a Solidity contract for a simple capped crowd sale token.</h2>
-<hr>
 
 <h2>Process:</h2>
 <ol>
   <li>
     <h3>Readings to follow: </h3>
-    <ul><li>There are two readings that you can follow to understand the creation of a smart contract: <a href="https://medium.com/crowdbotics/how-to-build-a-simple-capped-crowdsale-token-using-openzeppelin-library-part-1-2789ec642308">Article One</a> <a href="https://medium.com/crowdbotics/how-to-build-a-simple-capped-crowdsale-token-using-openzeppelin-library-part-2-cf96cb66c3d0">Article two</a>.</li></ul>
+    <ul><li>There are two readings that you can follow to understand the creation of a smart contract: <a href="https://medium.com/crowdbotics/how-to-build-a-simple-capped-crowdsale-token-using-openzeppelin-library-part-1-2789ec642308">Article One</a>, <a href="https://medium.com/crowdbotics/how-to-build-a-simple-capped-crowdsale-token-using-openzeppelin-library-part-2-cf96cb66c3d0">Article two</a>.</li></ul>
   </li>
   <li>
     <h3>Downloads required:</h3>
@@ -39,6 +38,11 @@
       </ol>
     </ul>
   </li>
+  <li>Performing transactions:
+  <ol>
+    <li><strong>sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(1, 'ether')) , from : web3.eth.accounts[1]});</strong></li>
+    </ol>
+  </li>
  </ol>
  <hr>
  <H2>Useful commands used: </h2>
@@ -62,7 +66,7 @@
   </li>
  </ul>
  <hr>
- <h2>Solutions:</h2>
+ <h2>Solutions to required changes:</h2>
  <ul>
   <li>Part One Answer(s):
     <ul><li>A: <br><img src="ScreenshotsOfOutput/A1.png"></li></ul>
