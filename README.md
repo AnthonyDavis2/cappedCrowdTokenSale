@@ -38,11 +38,6 @@
       </ol>
     </ul>
   </li>
-  <li>Performing transactions:
-  <ol>
-    <li><strong>sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(1, 'ether')) , from : web3.eth.accounts[1]});</strong></li>
-    </ol>
-  </li>
  </ol>
  <hr>
  <H2>Useful commands used: </h2>
@@ -62,6 +57,11 @@
   <li>Deploying ExampleTokenCrowdsale contract with its parameters <em>rate (450 token/ether)</em>, <em>wallet (web3.eth.accounts[0])</em>, <em> ERC20 token (Example Token address)</em>, and <em>cap (150 ether)</em>:
   <ol>
     <li><strong>ExampleTokenCrowdsale.deployed(450, web3.eth.accounts[0], token.address , new web3.BigNumber(web3.toWei(150, 'ether'))).then((t) => {sale = t;})</strong></li>
+    </ol>
+  </li>
+  <li>Performing transactions:
+  <ol>
+    <li><strong>sale.buyTokens(web3.eth.accounts[1], {value : new web3.BigNumber(web3.toWei(1, 'ether')) , from : web3.eth.accounts[1]});</strong></li>
     </ol>
   </li>
  </ul>
