@@ -43,9 +43,23 @@
  <hr>
  <H2>Useful commands used: </h2>
  <ul>
-  <li>Compiling with truffle: <ol><li>truffle compile</li><li>truffle develop</li><li>migrate --reset</li></ol</li>
-    <li>Hello</li>
-    <li>world</li>
+  <li>Compiling with truffle: 
+    <ol>
+      <li><strong>truffle compile</strong></li>
+      <li><strong>truffle develop</strong></li>
+      <li><strong>migrate --reset</strong></li>
+    </ol>
+  </li>
+  <li>Deploying ExampleToken contract with it's parameters <em>token name</em>, <em>symbol</em>, <em>decimal point</em>: 
+  <ol>
+    <li><strong>ExampleToken.deployed("CSC 4980", "GSU", 18).then((t) => {token = t;})</strong></li>
+    </ol>
+  </li>
+  <li>Deploying ExampleTokenCrowdsale contract with its parameters <em>rate (450 token/ether)</em>, <em>wallet (web3.eth.accounts[0])</em>, <em> ERC20 token (Example Token address)</em>, and <em>cap (150 ether)</em>:
+  <ol>
+    <li><strong>ExampleTokenCrowdsale.deployed(450, web3.eth.accounts[0], token.address , new web3.BigNumber(web3.toWei(150, 'ether'))).then((t) => {sale = t;})</strong></li>
+    </ol>
+  </li>
  </ul>
  <hr>
  <h2>Solutions:</h2>
