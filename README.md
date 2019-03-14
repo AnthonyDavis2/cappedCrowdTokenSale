@@ -73,7 +73,7 @@
  <h2>Solutions for testing transactions from <a href="https://medium.com/crowdbotics/how-to-build-a-simple-capped-crowdsale-token-using-openzeppelin-library-part-2-cf96cb66c3d0">tutorial exercises</a>:</h2>
  <ol>
   <li>The minimum contribution cap is two ether for our contract. Therefore if we try to buy buy tokens with one ether, it will fail and call the revert function.<br><img src="ScreenshotsOfOutput/T1.png"></li>
-  <li>Buying tokens with two ether should succeed.<br><img src"ScreenshotsOfOutput/T2.png"></li>
+  <li>Buying tokens with two ether should succeed.<br><img src="ScreenshotsOfOutput/T2.png"></li>
   <li>Buying tokens with 48 ether from the same investor account should succeed.<br><img src="ScreenshotsOfOutput/T3.png"></li>
   <li>Buying more tokens with the same account should fail since the account reached the capped amount.<br><img src="ScreenshotsOfOutput/T4.png"></li>
   </ol>
